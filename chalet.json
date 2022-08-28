@@ -26,7 +26,7 @@
 		},
 		"script-powershell-env": {
 			"kind": "script",
-			"file": "scripts/script_powershell_env"
+			"file": "scripts/script_powershell_env.ps1"
 		},
 		"script-python": {
 			"kind": "script",
