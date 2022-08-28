@@ -67,7 +67,7 @@
 		"script-tcl-env": {
 			"kind": "script",
 			"file": "scripts/script_tcl_env"
-		}/*,
+		},
 		"script-awk": {
 			"kind": "script",
 			"file": "scripts/script_awk.awk"
@@ -75,7 +75,7 @@
 		"script-awk-env": {
 			"kind": "script",
 			"file": "scripts/script_awk_env"
-		}*/
+		}
 	},
 	"distribution": {
 		"post-bundle": {
