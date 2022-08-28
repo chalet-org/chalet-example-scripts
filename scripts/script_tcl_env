@@ -1,0 +1,3 @@
+#!/usr/bin/env tclsh
+
+puts "ϡ  This is a tcl script with a /usr/bin/env shebang."

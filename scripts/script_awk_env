@@ -1,0 +1,5 @@
+#!/usr/bin/env awk
+
+BEGIN {
+	print "😳 This is an awk script with a /usr/bin/env shebang."
+}

@@ -1,0 +1,87 @@
+{
+	"version": "0.0.1",
+	"name": "chalet-example-scripts",
+	"targets": {
+		"script-shell": {
+			"kind": "script",
+			"file[:!windows]": "scripts/script_shell.sh",
+			"file[:windows]": "scripts/script_batch.bat"
+		},
+		"script-shell-env": {
+			"kind": "script",
+			"file[:!windows]": "scripts/script_shell_env",
+			"file[:windows]": "scripts/script_batch.bat"
+		},
+		"script-shell-bad": {
+			"kind": "script",
+			"file": "scripts/script_shell_bad.sh"
+		},
+		"script-batch": {
+			"kind": "script",
+			"file[:windows]": "scripts/script_batch.bat"
+		},
+		"script-powershell": {
+			"kind": "script",
+			"file": "scripts/script_powershell.ps1"
+		},
+		"script-powershell-env": {
+			"kind": "script",
+			"file": "scripts/script_powershell_env"
+		},
+		"script-python": {
+			"kind": "script",
+			"file": "scripts/script_python.py"
+		},
+		"script-python-env": {
+			"kind": "script",
+			"file": "scripts/script_python_env"
+		},
+		"script-ruby": {
+			"kind": "script",
+			"file": "scripts/script_ruby.rb"
+		},
+		"script-ruby-env": {
+			"kind": "script",
+			"file": "scripts/script_ruby_env"
+		},
+		"script-perl": {
+			"kind": "script",
+			"file": "scripts/script_perl.pl"
+		},
+		"script-perl-env": {
+			"kind": "script",
+			"file": "scripts/script_perl_env"
+		},
+		"script-lua": {
+			"kind": "script",
+			"file": "scripts/script_lua.lua"
+		},
+		"script-lua-env": {
+			"kind": "script",
+			"file": "scripts/script_lua_env"
+		},
+		"script-tcl": {
+			"kind": "script",
+			"file": "scripts/script_tcl.tcl"
+		},
+		"script-tcl-env": {
+			"kind": "script",
+			"file": "scripts/script_tcl_env"
+		},
+		"script-awk": {
+			"kind": "script",
+			"file": "scripts/script_awk.awk"
+		},
+		"script-awk-env": {
+			"kind": "script",
+			"file": "scripts/script_awk_env"
+		}
+	},
+	"distribution": {
+		"post-bundle": {
+			"kind": "script",
+			"file[:!windows]": "scripts/script_shell.sh",
+			"file[:windows]": "scripts/script_batch.bat"
+		}
+	}
+}
