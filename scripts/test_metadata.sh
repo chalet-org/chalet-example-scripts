@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 
 CHALET_VERSION=$1
 CHALET_ARCHITECTURE=${2//_/-}
@@ -8,6 +9,5 @@ echo "Version: $CHALET_VERSION"
 echo "Architecture: $CHALET_ARCHITECTURE"
 echo "Author: $CHALET_AUTHOR"
 echo "Description: $CHALET_DESCRIPTION"
-echo "Done."
 
 exit 0

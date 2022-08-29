@@ -1,6 +1,8 @@
 {
 	"version": "0.0.1",
 	"name": "chalet-example-scripts",
+	"author": "John Doe",
+	"description": "A Chalet project demonstrating script targets",
 	"targets": {
 		"script-shell": {
 			"kind": "script",
@@ -75,6 +77,17 @@
 		"script-awk-env": {
 			"kind": "script",
 			"file": "scripts/script_awk_env"
+		},
+		"script-meta": {
+			"kind": "script",
+			"file": "scripts/test_metadata.sh",
+			"condition": "[:runTarget]",
+			"arguments": [
+				"${meta:version}",
+				"${archTriple}",
+				"${meta:author}",
+				"${meta:description}"
+			]
 		}
 	},
 	"distribution": {
