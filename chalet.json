@@ -84,7 +84,7 @@
 			"condition": "[:runTarget]",
 			"arguments": [
 				"${meta:version}",
-				"${archTriple}",
+				"${targetTriple}",
 				"${meta:author}",
 				"${meta:description}"
 			]
