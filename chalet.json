@@ -7,76 +7,94 @@
 		"script-shell": {
 			"kind": "script",
 			"file[:!windows]": "scripts/script_shell.sh",
-			"file[:windows]": "scripts/script_batch.bat"
+			"file[:windows]": "scripts/script_batch.bat",
+			"dependsOnSelf": true
 		},
 		"script-shell-env": {
 			"kind": "script",
 			"file[:!windows]": "scripts/script_shell_env",
-			"file[:windows]": "scripts/script_batch.bat"
+			"file[:windows]": "scripts/script_batch.bat",
+			"dependsOnSelf": true
 		},
 		"script-shell-bad": {
 			"kind": "script",
-			"file": "scripts/script_shell_bad.sh"
+			"file": "scripts/script_shell_bad.sh",
+			"dependsOnSelf": true
 		},
 		"script-batch": {
 			"kind": "script",
-			"file[:windows]": "scripts/script_batch.bat"
+			"file[:windows]": "scripts/script_batch.bat",
+			"dependsOnSelf": true
 		},
 		"script-powershell": {
 			"kind": "script",
-			"file": "scripts/script_powershell.ps1"
+			"file": "scripts/script_powershell.ps1",
+			"dependsOnSelf": true
 		},
 		"script-powershell-env": {
 			"kind": "script",
-			"file": "scripts/script_powershell_env.ps1"
+			"file": "scripts/script_powershell_env.ps1",
+			"dependsOnSelf": true
 		},
 		"script-python": {
 			"kind": "script",
-			"file": "scripts/script_python.py"
+			"file": "scripts/script_python.py",
+			"dependsOnSelf": true
 		},
 		"script-python-env": {
 			"kind": "script",
-			"file": "scripts/script_python_env"
+			"file": "scripts/script_python_env",
+			"dependsOnSelf": true
 		},
 		"script-ruby": {
 			"kind": "script",
-			"file": "scripts/script_ruby.rb"
+			"file": "scripts/script_ruby.rb",
+			"dependsOnSelf": true
 		},
 		"script-ruby-env": {
 			"kind": "script",
-			"file": "scripts/script_ruby_env"
+			"file": "scripts/script_ruby_env",
+			"dependsOnSelf": true
 		},
 		"script-perl": {
 			"kind": "script",
-			"file": "scripts/script_perl.pl"
+			"file": "scripts/script_perl.pl",
+			"dependsOnSelf": true
 		},
 		"script-perl-env": {
 			"kind": "script",
-			"file": "scripts/script_perl_env"
+			"file": "scripts/script_perl_env",
+			"dependsOnSelf": true
 		},
 		"script-lua": {
 			"kind": "script",
-			"file": "scripts/script_lua.lua"
+			"file": "scripts/script_lua.lua",
+			"dependsOnSelf": true
 		},
 		"script-lua-env": {
 			"kind": "script",
-			"file": "scripts/script_lua_env"
+			"file": "scripts/script_lua_env",
+			"dependsOnSelf": true
 		},
 		"script-tcl": {
 			"kind": "script",
-			"file": "scripts/script_tcl.tcl"
+			"file": "scripts/script_tcl.tcl",
+			"dependsOnSelf": true
 		},
 		"script-tcl-env": {
 			"kind": "script",
-			"file": "scripts/script_tcl_env"
+			"file": "scripts/script_tcl_env",
+			"dependsOnSelf": true
 		},
 		"script-awk": {
 			"kind": "script",
-			"file": "scripts/script_awk.awk"
+			"file": "scripts/script_awk.awk",
+			"dependsOnSelf": true
 		},
 		"script-awk-env": {
 			"kind": "script",
-			"file": "scripts/script_awk_env"
+			"file": "scripts/script_awk_env",
+			"dependsOnSelf": true
 		},
 		"script-meta": {
 			"kind": "script",
